@@ -44,8 +44,8 @@ body {
   align-content: center;
 }
 
-.navbar a {
-  color: #020202 !important;
+.navbar a:hover{
+  color: #901010 !important;
   font-weight: 500;
   transition: color 0.3s ease;
 }
