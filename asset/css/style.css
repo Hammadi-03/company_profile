@@ -64,6 +64,27 @@ body {
   display: inline-block;
 }
 
+.navbar-fixed-top .nav-links {
+  display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.navbar-fixed-top .nav-links .mx-2 a::before {
+    position: relative;
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    transform: 0.3s linear;
+}
+
+.navbar-fixed-top .nav-links .mx-2 a:hover::before {
+  
+  width: 100%;
+}
+
+
 /* Hero wrapper */
 #hero {
   border-top-left-radius: 32px !important;
@@ -387,7 +408,7 @@ body {
 }
 
 .footer {
-  background-color: #fff !important;
+  background-color: #918a8a !important;
   border-top-left-radius:32px !important;
   border-top-right-radius: 32px !important;
 }
